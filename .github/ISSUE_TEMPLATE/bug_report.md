@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: shfoote@my.waketech.edu 12345
+about: bug report
 title: ''
 labels: ''
 assignees: ''
@@ -8,44 +8,34 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
-
+The program returns -1 when the current year is entered when it should display the correct retirement age.
 **Program**
-The name of the program/version/build you are running.
-
+CSC256PublicChangeDoc 1:00pm 10/27/2020
 **Component**
-By default, all bugs associated with a given component are routed to the lead developer for that component.
-
+Full_retirement_calc.py
 **Error Type**
-Behavioral error, Documentation error, Design error. 
-
+AssertionError
 **Severity**
-Fatal, Severe, Minor, Nuisance.
+Severe
 
 **Priority**
-Set by management
-
+TBD
 **State**
-Open/Accepted/Working/Test/Rejected/Deferred/Closed
-
+Working
 **To Reproduce**
 Steps to reproduce the behavior:
-1. First thing to do
-1. Next thing to do
-.
-.
-. 
+1.	Enter birthyear as 2020
+
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
-
+Retirement date should be 2087 instead of -1
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+-	OS: Windows 10
+-	Browser Chrome
+-	85.0.4183.121
 
 **Additional context**
 Add any other context about the problem here.
@@ -54,34 +44,11 @@ Add any other context about the problem here.
 Current owner of the issue.  Initially, assigned to the Component's lead developer.
 
 **Defect Type**
-For ODC later.  
-One of
-* Interface
-* Function
-* Build/Package/Merge
-* Assignment
-* Documentation
-* Checking
-* Algorithm
-* Timing/Serialization
+Algorithm
+
 
 **Defect Trigger**
-For ODC later.
-One of
-* Review and Inspection Triggers
-* Unit and Function Test Triggers
-* System and Field Test Triggers
+TBD
 
 **Defect Impact**
-For ODC later.
-One of
-* Capability
-* Usability
-* Performance
-* Reliability
-* Installability
-* Maintainability
-* Documentation
-* Migration
-* Standards
-* Integrity/Security
+TBD
