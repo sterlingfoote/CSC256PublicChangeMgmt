@@ -1,5 +1,5 @@
 ---
-name: shfoote@my.waketech.edu 12345
+name: shfoote@my.waketech.edu12345
 about: bug report
 title: ''
 labels: ''
